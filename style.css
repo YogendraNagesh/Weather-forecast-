@@ -1,0 +1,185 @@
+
+   /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    
+    .navbar {
+      font-family: Montserrat, sans-serif;
+      border: none;
+      font-size: 13px;
+      letter-spacing: 3px;
+    }
+    .navbar li a, .navbar-brand {
+      color: #100f0f !important;
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: rgb(234, 4, 4) !important;
+    }
+
+    /* Home Section */
+    #myPage {
+      background-image: url("assets/images/climate.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      padding: 150px 20px;
+      color: rgb(244, 244, 244);
+      text-align: center;
+    }
+
+    #btn1 button {
+      width: 150px;
+      height: 36px;
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+      letter-spacing: 1px;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    #btn1 button:hover {
+      background-color: red;
+      color: white;
+    }
+
+    /* Grid Section */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .grid-item {
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Section Headings */
+    h2 {
+      text-align: center;
+      color: rgb(124, 35, 35);
+      font-size: 30px;
+      margin-top: 60px;
+    }
+
+    /* Progress Section */
+    .progress {
+      margin-bottom: 20px;
+    }
+
+    /* Contact Section */
+    #contect {
+      margin-top: 60px;
+      margin-bottom: 80px;
+    }
+    #contect form .form-group input,
+    #contect form .form-group textarea {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-btn {
+      background-color: crimson;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 10px 20px;
+      border: none;
+      transition: 0.3s;
+      border-radius: 4px;
+    }
+    .contact-btn:hover {
+      background-color: darkred;
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    #footer {
+      width: 100%;
+      background-color: black;
+      padding: 30px 0;
+      margin-top: 100px;
+      text-align: center;
+    }
+    #footer h1, #footer p {
+      color: white;
+    }
+    .icons i {
+      color: beige;
+      font-size: 26px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    .credite {
+      color: white;
+      margin-top: 10px;
+    }
+
+    /* About Section */
+    #container img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    /* Read More Functionality */
+    #read-more-toggle {
+      display: none;
+    }
+    .more-text {
+      display: none;
+      transition: max-height 0.3s ease;
+    }
+    #read-more-toggle:checked ~ .more-text {
+      display: inline;
+    }
+    .read-more-btn {
+      display: inline-block;
+      margin-top: 10px;
+      color: rgb(12, 11, 11);
+      font-weight: bold;
+      cursor: pointer;
+      border: 1px solid rgb(0, 0, 0);
+      
+   
+    }
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      #myPage h1 {
+        font-size: 36px;
+      }
+      #myPage p {
+        font-size: 18px;
+      }
+      .contect {
+        margin: 120px 20px 20px;
+      }
+      #btn1 a button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+      }
+    }

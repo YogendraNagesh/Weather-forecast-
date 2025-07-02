@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="assets/images/fav.icon.ico">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Boxicons for footer icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <style>
+ 
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Forecast</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myPage">HOME</a></li>
+          <li><a href="#Heavy">Heavy</a></li>
+          <li><a href="#Reports">Reports</a></li>
+          <li><a href="#progress">Progress</a></li>
+          <li><a href="#container">ABOUT</a></li>
+          <li><a href="#contect">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <div id="myPage" class="contect">
+    <h1 style="font-size: 60px; color: rgb(255, 251, 4);">WEATHER FORECASTE<br>model climate.</h1>
+    <p style="color: rgb(255, 255, 255); font-size: 25px;">
+      Observation and analysis, extrapolation to determine the state of the atmosphere in the future,<br>
+      and estimation of specific variables..
+    </p><br><br>
+    <div id="btn1"><a href="#contect"><button>Visit Now</button></a></div>
+  </div>
+</div>
+
+ <!-- Heavy Section -->
+  <h2 id="Heavy">Heavy Rain Falls</h2>
+  <div class="grid-container">
+    <div class="grid-item"><img src="assets/images/rain1.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/rain2.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/rain3.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/traffic.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/traffic5.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/traffic6.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/traffic5.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/img-1.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/img-7.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/img-3.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/img-4.jpg" alt=""></div>
+    <div class="grid-item"><img src="assets/images/img-5.jpg" alt=""></div>
+  </div>
+  <!-- Heavy -->
+
+</div>
+
+<!-- Reports Section -->
+<div id="Reports" class="container">
+  <h2>Forecast Reports</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active"><img src="assets/images/weather3.jpg" style="width:100%;"></div>
+      <div class="item"><img src="assets/images/weather2.jpg" style="width:100%;"></div>
+      <div class="item"><img src="assets/images/weather1.jpg" style="width:100%;"></div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</div>
+
+<!-- Progress Section -->
+<h2 id="progress" style="color: violet;">Weather Forecast Progress</h2>
+<div class="container">
+  <!-- Add progress bars here -->
+</div>
+
+<!-- About Section -->
+<div id="container" class="container">
+  <h1 class="text-center" style="color: yellow; background-color: black;">ABOUT</h1>
+  <div class="row" style="margin-top: 40px;">
+    <div class="col-md-6"><img src="assets/images/andhra.jpg" alt=""></div>
+    <div class="col-md-6">
+      <p>
+        Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time.
+        People have attempted to predict the weather informally for millennia and formally since the 19th century.
+        Today, forecasting relies on advanced computer models, pattern recognition, and meteorological expertise.
+        <input type="checkbox" id="read-more-toggle">
+        <span class="more-text">
+          It combines satellite imagery, radar data, and surface observations to produce forecasts.
+          Accurate weather predictions help in agriculture, disaster planning, transportation, and everyday life.
+          Meteorologists use simulation models to interpret massive amounts of data for local and global patterns.
+          Amalapuram Weather Forecast. Providing a local hourly Amalapuram weather forecast of rain, sun, wind, humidity and temperature.
+          The Long-range 12 day forecast also includes detail for Amalapuram weather today. Live weather reports from Amalapuram weather stations and weather warnings that include risk of thunder, 
+          high UV index and forecast gales. See the links below the 12-day Amalapuram weather forecast table for other cities and towns nearby along with weather conditions for local outdoor activities..
+        </span>
+      </p>
+      <label for="read-more-toggle" class="read-more-btn">Read More...</label>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contect" class="container">
+  <h2 style="color: crimson; text-align: center;">Contact Us</h2>
+  <p style="text-align: center;">We’d love to hear from you! Fill out the form below:</p>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-6 col-md-offset-3">
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" class="form-control" placeholder="Enter your message" rows="5" required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn contact-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+  <h1 class="text-center">WEATHER FORECASTE</h1>
+  <p class="text-center">Visit this website to determine future atmospheric conditions.</p>
+  <p class="text-center" style="color: yellow;">Thank you for visiting!</p>
+  <div class="icons text-center">
+    <i class="bx bxl-facebook"></i>
+    <i class="bx bxl-google"></i>
+    <i class="bx bxl-skype"></i>
+    <i class="bx bxl-instagram"></i>
+  </div>
+  <div class="credite text-center">
+    Designed By: <a href="#">Yogesh</a>
+  </div>
+</footer>
+<!-- Footer -->
+</body>
+</html>
+
+
